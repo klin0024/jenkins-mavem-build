@@ -11,7 +11,6 @@ $ kubectl apply -f dockerfile-cm.yaml -n < jenkins namespace > <br />
 ##### 參數說明:
 maven_repo_pvc: 存放 mavem repository 的 pvc 名稱, 預設: 'maven-repo-pvc' <br />
 docker_config_map: 做為 Dockerfile cm 名稱, 預設: 'dockerfile' <br />
-def dockerfile='Dockerfile' <br />
 git_url: source code git的來源 <br />
 git_branch: source code git的分支 <br />
 image_registry: image推送置的註冊表 <br />
